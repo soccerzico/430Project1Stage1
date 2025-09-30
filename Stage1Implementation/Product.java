@@ -52,7 +52,7 @@ public class Product {
         System.out.println("Product " + name + "'s Quantity has been increased");
     }
 
-    public void removeStock(int amount){
+    public void removeQuantity(int amount){
         quantity -= amount;
         System.out.println("Product " + name + "'s  Quantity has been decreased");
     }
