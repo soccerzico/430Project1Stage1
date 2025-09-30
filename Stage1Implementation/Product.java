@@ -49,16 +49,19 @@ public class Product {
 
     public void addQuantity(int amount){
         quantity += amount;
+        //print statment for testing purposes
         System.out.println("Product " + name + "'s Quantity has been increased");
     }
 
     public void removeQuantity(int amount){
         quantity -= amount;
+        //print statment for testing purposes
         System.out.println("Product " + name + "'s  Quantity has been decreased");
     }
 
     public void setPrice(double newPrice){
         price = newPrice;
+        //print statment for testing purposes
         System.out.println("Product " + name + " has changed in price");
     }
 }
