@@ -1,0 +1,25 @@
+Script started on 2025-09-30 03:51:41+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="165" LINES="11"]
+[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ javac ProductTestMain.java Product.java 
+[?2004l[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ java ProductTestMain 
+[?2004lProduct{id='P100', name='Notebook', qty=2, price=2.99}
+Product: Notebook
+Product ID: P100
+quantity: 2
+Price: 2.99
+Product{id='P200', name='Pen', qty=5, price=0.85}
+Product: Pen
+Product ID: P200
+quantity: 5
+Price: 0.85
+Product Notebook's Quantity has been increased
+Notebook quantity: 5
+Product Notebook's  Quantity has been decreased
+Notebook quantity: 4
+Product Notebook has changed in price
+Notebook price: 3.49
+p1.equals(p1Duplicate): true
+p1.equals(p2): false
+[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-09-30 03:52:08+00:00 [COMMAND_EXIT_CODE="0"]
