@@ -1,0 +1,32 @@
+Script started on 2025-09-30 03:15:08+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="165" LINES="11"]
+[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ javac MainS[KTesterClass.java clien[K[K[K[K[KClient.java ClientList.java WishList.java Inver[Kntory.java Product ,[K.java
+[?2004l[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ java MainTesterClass
+[?2004l=== Inventory ===
+Product{id='P100', name='Notebook', qty=2, price=2.99}
+Product{id='P200', name='Pen', qty=5, price=0.85}
+Product{id='P300', name='Stapler', qty=3, price=4.99}
+----------------
+Total distinct products: 3
+Total items in stock: 10
+
+
+=== Client List ===
+C001 | Mike Johnson | 123 Maple St
+C002 | Kanye West | 456 Oak St
+C003 | King Von | 789 Pine St
+-------------------
+Total clients: 3
+
+
+=== Wish Lists ===
+wishlist for client: Mike Johnson
+WishList{clientId='C001', products=[Product{id='P100', name='Notebook', qty=2, price=2.99}]}
+wishlist for client: Kanye West
+WishList{clientId='C002', products=[Product{id='P200', name='Pen', qty=5, price=0.85}]}
+wishlist for client: King Von
+WishList{clientId='C003', products=[Product{id='P300', name='Stapler', qty=3, price=4.99}]}
+--------------------
+[?2004h[0;32m@soccerzico [0m➜ [1;34m/workspaces/430Project1Stage1/Stage1Implementation [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-09-30 03:16:12+00:00 [COMMAND_EXIT_CODE="0"]
